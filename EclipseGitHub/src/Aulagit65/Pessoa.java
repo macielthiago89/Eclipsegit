@@ -1,22 +1,13 @@
 package Aulagit65;
 
 public class Pessoa {
-	private String name;	
+	private String name;
+	
 	private int idade;
 	
 	public Pessoa() {
 		
 	}
-	
-	
-
-	public Pessoa(String name, int idade) {
-		super();
-		this.name = name;
-		this.idade = idade;
-	}
-
-
 
 	public String getName() {
 		return name;
